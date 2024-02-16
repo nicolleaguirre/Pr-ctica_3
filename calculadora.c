@@ -73,7 +73,7 @@ void performOperation(Stack *s, char op) {
         case '*': result = a * b; break;
         case '/':
             if (a == 0) {
-                printf("Error: División por cero.\n");
+                printf("Error: Division por cero.\n");
                 push(s, b); // Devolvemos el otro valor a la pila
                 return;
             }
